@@ -12,10 +12,17 @@ This project includes a fully automated setup script that installs:
 
 ## ⚙️ GitHub Download Method
 
+sudo apt update
+sudo apt install unzip
+
 ```bash
-curl -L https://github.com/your-user/your-backend/archive/refs/heads/main.zip -o backend.zip
+curl -L https://github.com/pranwagh11/vm_backend_service/archive/refs/heads/main.zip -o backend.zip
 
 # ⚡ One Command Setup
+
+unzip filename.zip
+
+cd vm_backend_service-main
 
 ```bash
 chmod +x setup.sh
