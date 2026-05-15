@@ -44,7 +44,6 @@ npm -v
 echo ""
 echo "📁 Cloning backend..."
 sudo rm -rf $APP_DIR
-sudo git clone $REPO_URL $APP_DIR
 
 cd $APP_DIR
 
