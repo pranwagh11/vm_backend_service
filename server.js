@@ -16,6 +16,11 @@ app.use(express.json());
 app.use('/api', metricsRoutes);
 
 // Start Server
-app.listen(PORT, () => {
+//app.listen(PORT, () => {
+//    console.log(`Server running on port ${PORT}`);
+//});
+
+// IMPORTANT: bind to all interfaces
+app.listen(PORT, "0.0.0.0", () => {
     console.log(`Server running on port ${PORT}`);
 });
