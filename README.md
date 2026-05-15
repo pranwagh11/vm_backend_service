@@ -10,6 +10,11 @@ This project includes a fully automated setup script that installs:
 
 ---
 
+## ⚙️ GitHub Download Method
+
+```bash
+curl -L https://github.com/your-user/your-backend/archive/refs/heads/main.zip -o backend.zip
+
 # ⚡ One Command Setup
 
 ```bash
