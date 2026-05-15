@@ -20,7 +20,7 @@ curl -L https://github.com/pranwagh11/vm_backend_service/archive/refs/heads/main
 
 # ⚡ One Command Setup
 
-unzip filename.zip
+unzip backend.zip
 
 cd vm_backend_service-main
 
