@@ -9,14 +9,20 @@ This project includes a fully automated setup script that installs:
 - Public IP / domain configuration
 
 ---
+## 🤖 For NODE.JS AGENT (recommended):
+### 🔥 WHAT YOU MUST CHANGE
 
-## 🔥 WHAT YOU MUST CHANGE
-
-Replace this line:
-
-SERVER_IP = "YOUR_SERVER_PUBLIC_IP"
+  Replace this line:
+  
+    SERVER_IP = "YOUR_SERVER_PUBLIC_IP"
 
 # ⚡ One Command Setup
 
-chmod +x setup.sh
-sudo ./setup.sh
+    chmod +x setup.sh
+    sudo ./setup.sh
+  
+## 🤖 After Setup System Check
+  # ⚡ Check Status online:
+    systemctl start vm-monitor
+  # ⚡ For Logs:
+    journalctl -u vm-monitor -f
