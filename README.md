@@ -26,3 +26,9 @@ This project includes a fully automated setup script that installs:
     systemctl start vm-monitor
   # ⚡ For Logs:
     journalctl -u vm-monitor -f
+## IMPORTANT Firewall Setup:
+    sudo ufw enable
+    
+    sudo ufw status
+## Make sure http port of server is open
+    
